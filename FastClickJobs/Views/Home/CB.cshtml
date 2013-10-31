@@ -5,6 +5,12 @@
 }
 
 <h2>CB</h2>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#details').attr('href', 'details');
+    });
+</script>
 
 @*<p>
     @Html.ActionLink("Create New", "Create")
@@ -75,6 +81,7 @@
     </tr>
 
 @foreach (var item in Model) {
+    var detailsurl = item.JobDetailsURL;
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Company)
@@ -124,9 +131,9 @@
         @*<td>
             @Html.DisplayFor(modelItem => item.OnetCode)
         </td>*@
-        <td>
+        @*<td>
             @Html.DisplayFor(modelItem => item.ONetFriendlyTitle)
-        </td>
+        </td>*@
         <td>
             @Html.DisplayFor(modelItem => item.Pay)
         </td>
@@ -134,11 +141,12 @@
             @Html.DisplayFor(modelItem => item.PostedDate)
         </td>
         @*<td>
-            @Html.DisplayFor(modelItem => item.SimilarJobsURL)
+            @Html.DisplayFor(modelItem => item.SimiblarJobsURL)
         </td>*@
         <td>
             @*@Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |*@
             @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            <a id="details">Details</a>
             @*@Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })*@
         </td>
     </tr>
