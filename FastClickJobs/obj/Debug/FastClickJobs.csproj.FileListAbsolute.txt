@@ -53,3 +53,6 @@ c:\users\prashmaya\documents\visual studio 2013\Projects\FastClickJobs\FastClick
 c:\users\prashmaya\documents\visual studio 2013\Projects\FastClickJobs\FastClickJobs\obj\Debug\FastClickJobs.csprojResolveAssemblyReference.cache
 c:\users\prashmaya\documents\visual studio 2013\Projects\FastClickJobs\FastClickJobs\obj\Debug\FastClickJobs.dll
 c:\users\prashmaya\documents\visual studio 2013\Projects\FastClickJobs\FastClickJobs\obj\Debug\FastClickJobs.pdb
+C:\Users\PrashMaya\Documents\Visual Studio 2013\Projects\FastClickJobs\FastClickJobs\bin\CBApi.dll
+C:\Users\PrashMaya\Documents\Visual Studio 2013\Projects\FastClickJobs\FastClickJobs\bin\RestSharp.dll
+C:\Users\PrashMaya\Documents\Visual Studio 2013\Projects\FastClickJobs\FastClickJobs\bin\RestSharp.xml
